@@ -1,0 +1,83 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+.form_wrapper{
+    display: flex;
+    flex-direction: column;
+    /* align-items: unset; */
+}
+.form_wrapper a{text-decoration: none;
+
+}
+.form_heading{
+    font-weight: 200;
+}
+.input_wrapper{
+    margin-bottom: 20px;
+}
+.label{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.input{
+    width: 95%;
+    height: 15px;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    border:1px solid black;
+    /* margin-bottom: 20px; */
+    
+}
+.input:active{
+    box-shadow: tomato;
+}
+.pass_label{
+        display: flex;
+        justify-content: space-between;
+}
+
+.pass_label a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.btn_primary{
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    border: 1px solid;
+    outline: none;
+    width: 99%;
+    height: 25px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form_term_policy{
+    font-size: 11px;
+    margin-bottom:20px;
+}
+
+.form_footer{
+    font-size: 12px;
+    /* width: ; */
+}
+
+.footer_heading{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+.btn_secondary{
+    border: 1px solid;
+    outline: none;
+    width: 99%;
+    height: 25px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.pass_bottom_label{
+    font-size: 10px;
+}

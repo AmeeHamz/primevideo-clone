@@ -1,0 +1,157 @@
+Link {
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 0.1px;
+    color: #424b50;
+    background-color:#535a5e;
+}
+
+.navlink_wrapper_left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navlink_wrapper_right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 100px
+}
+
+.nav {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.home_nav {
+    color: white;
+    font-size: 17px;
+    border-bottom: 1px solid white;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.dropdown_navlink {
+    text-decoration: none;
+    color: white;
+    margin: 11px;
+    font-size: 13px;
+}
+
+.dropdown_wrapper {
+    display: flex;
+    cursor: pointer;
+}
+
+.dropdown_navlink_wrapper {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: left;
+}
+
+.drop {
+    display: none;
+}
+
+.dropdown {
+    border-radius: 3px;
+    position: absolute;
+    display: flex;
+    top: 100%;
+    right: 2%;
+    left: 60%;
+    z-index: 1;
+    height: 248px;
+    font-size: 15px;
+    justify-content: space-between;
+    background: #252e39;
+    box-shadow: 0 4px 8px #000;
+}
+
+.sub_nav_avatar_wrapper {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.subnav_right_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 20%;
+}
+
+.subnav_left_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;
+    padding-right: 10%;
+    border-right: 1px solid #8197a4;
+}
+
+.subnav_left_wrapper > a {
+    margin-top: 20px;
+}
+
+.subnav_right_wrapper > a {
+    margin-top: 15px;
+}
+
+@media screen and (max-width:650px) {
+
+    .nav, .home_nav {
+        display: none;
+    }
+    .dropdown_navlink_container {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        height: 196px;
+        font-size: 12px;
+        background: #252e39;
+        box-shadow: 0 4px 8px #000;
+    }
+
+    .drop {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:880px) {
+    .dropdown {
+        border-radius: 0px;
+        position: absolute;
+        display: flex;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        background-color: black;
+        height: 248px;
+        font-size: 12px;
+        justify-content: space-evenly;
+        background: #252e39;
+        box-shadow: 0 4px 8px #000;
+    }
+}

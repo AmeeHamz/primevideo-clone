@@ -1,0 +1,56 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+.wrapper_container{    
+    padding-top: 1.25rem;
+    min-height:100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+.wrapper_container a{
+    outline: none;
+}
+.img_container{
+    margin-bottom:1.25rem ;
+    display: flex;
+    justify-content: center;
+}
+.divider{
+    width: 80%;
+    /* background-color: white; */
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    box-shadow: 0px  2px 10px #000000;
+}
+.form_container{
+    border:1px solid rgba(0,0,0,.5);
+    display: flex;
+    /* justify-content: center; */
+    align-items:left;
+    flex-direction: column;
+    border-radius: .25rem;
+    padding:.9rem 1.12rem;
+}
+  .footer{
+      display: flex;
+      justify-content: center;
+  }
+  .footer ul {
+       display: flex;
+       /* justify-content: center; */
+  }
+  .footer li{
+      margin-right: 15px;
+      font-size: 12px;
+      list-style: none;
+  }
+  .footer_{
+      font-size: 12px;
+      color: gray;
+      margin-bottom: 50px;
+      text-align: center;
+      padding-left: 15px;
+  }

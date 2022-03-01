@@ -1,0 +1,20 @@
+.paper {
+    min-width:  350px;
+    min-height:350px;
+  }
+  .feedback_container{
+    padding: 20px;
+  }
+  .feedback_btn{
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    border-color: #a88734 #9c7e31 #846a29;
+    background-color:#f0c14b ;
+    color: black;
+    cursor: pointer;margin-right: 10px;
+      font-size: 12px;
+  }
+  .link_color{
+    color:blue
+  }

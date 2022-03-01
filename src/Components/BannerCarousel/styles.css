@@ -1,0 +1,94 @@
+
+html,
+body {
+  position: relative;  
+  background-color: #0F171E
+  
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  
+}
+
+.swiper-container {
+  height: 300px !important;
+  width:100%
+}
+
+.swiper-wrapper {
+  width: inherit;
+  height: inherit;
+}
+
+.swiper-slide {
+  height: inherit;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  object-fit: fill;
+}
+
+.swiper-button-prev {
+  color: white !important; 
+}
+
+.swiper-button-prev-active {
+    color: white !important; 
+  }
+  
+.swiper-button-next {
+    color: white !important; 
+    position: absolute !important;
+    
+  }
+
+  .swiper-button-next-active {
+    color: white !important; 
+
+    position: fixed !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px !important ;
+    height: 15px !important;
+    color: white !important ;
+    background-color: blanchedalmond !important;
+
+} 
+
+  .swiper-pagination-bullet-active {
+    width: 15px !important ;
+    height: 15px !important;
+    color: white !important;
+    background-color: blanchedalmond !important;
+
+} 
+
+/* .swiper-scrollbar-active {
+  display: none !important;
+} 
+
+.swiper-scrollbar {
+  display: none !important;
+}  */
+
+.swiper-button2{
+  margin-top: -80px;
+}
+

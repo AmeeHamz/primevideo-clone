@@ -13,13 +13,15 @@
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
 
 ## <code>Landing Page</code>
-![img](./screenshots/primevideo-SS1.jpeg)
+![1](https://user-images.githubusercontent.com/92137648/156178994-ee556a21-9007-4cf8-92af-c0cfdb9d8f33.jpeg)
 
 ## <code>Home Page</code>
-![img](./screenshots/2.png)
+![2](https://user-images.githubusercontent.com/92137648/156179039-88bc8944-5cd7-482b-8d96-d1605b07c562.png)
+
 
 ## <code>TV Show</code>
-![img](./screenshots/3.png)
+![3](https://user-images.githubusercontent.com/92137648/156179077-721784fe-2d0e-4f65-a383-5a87682da53f.png)
+
 
 ## Tech Library used:
   <ul>
